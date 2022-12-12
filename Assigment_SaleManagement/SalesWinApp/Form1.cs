@@ -1,4 +1,4 @@
-namespace SaleManagement.winform
+namespace SalesWinApp
 {
     public partial class Form1 : Form
     {

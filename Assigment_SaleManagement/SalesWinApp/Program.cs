@@ -1,4 +1,4 @@
-namespace SaleManagement.winform
+namespace SalesWinApp
 {
     internal static class Program
     {
