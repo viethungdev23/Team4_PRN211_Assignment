@@ -65,8 +65,9 @@ public partial class frmMain : Form
             tabPage.Parent = this.tabMain;
             this.tabMain.SelectedTab = tabPage;
             this.ActiveMdiChild.Tag = tabPage;
-            this.ActiveMdiChild.FormClosed += frmMain_FormClosed;
+            this.ActiveMdiChild.FormClosed += new FormClosedEventHandler(frmMain_FormClosed());
         }
+    }
     }
 
     private void tabMain_SelectedIndexChanged(object sender, EventArgs e)
@@ -74,6 +75,7 @@ public partial class frmMain : Form
         if (this.tabMain.SelectedTab != null && this.tabMain.SelectedTab.Tag != null) {
             (this.tabMain.SelectedTab.Tag as Form).Select();
         }
+
     }
 
     private void frmMain_FormClosed(object sender, FormClosedEventArgs e)
