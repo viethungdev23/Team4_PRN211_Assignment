@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace SaleManagement.repo.Models;
+namespace DataAccess.Models;
 
 public partial class Order
 {

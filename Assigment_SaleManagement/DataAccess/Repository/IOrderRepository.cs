@@ -1,24 +1,19 @@
-﻿using SaleManagement.repo.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using DataAccess.Models;
 
-namespace SaleManagement.repo.Repository
+
+namespace DataAccess.Repository;
+
+public interface IOrderRepository
 {
-    public interface IOrderRepository
-    {
-        IEnumerable<Order> GetOrders();
+    IEnumerable<Order> GetOrders();
 
-        IEnumerable<Order> GetOrdersByMemberId(int memberId);
+    IEnumerable<Order> GetOrdersByMemberId(int memberId);
 
-        Order GetOrderById(int id);
+    Order GetOrderById(int id);
 
-        void Delete(int orderId);
+    void Delete(int orderId);
 
-        void Create(Order order);
-        
-        void Update(Order order);
-    }
+    void Create(Order order);
+    
+    void Update(Order order);
 }

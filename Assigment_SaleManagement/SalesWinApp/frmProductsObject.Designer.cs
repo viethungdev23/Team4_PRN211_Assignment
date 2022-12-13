@@ -76,7 +76,7 @@
             // 
             // productBindingSource
             // 
-            this.productBindingSource.DataSource = typeof(SaleManagement.repo.Models.Product);
+            this.productBindingSource.DataSource = typeof(DataAccess.Models.Product);
             // 
             // label1
             // 
@@ -245,7 +245,7 @@
             // 
             // productRepositoryBindingSource
             // 
-            this.productRepositoryBindingSource.DataSource = typeof(SaleManagement.repo.Repository.ProductRepository);
+            this.productRepositoryBindingSource.DataSource = typeof(DataAccess.Repository.ProductRepository);
             // 
             // frmProductsObject
             // 

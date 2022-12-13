@@ -1,5 +1,5 @@
-using SaleManagement.repo.Models;
-using SaleManagement.repo.Repository;
+using DataAccess.Models;
+using DataAccess.Repository;
 
 namespace SaleManagement.winform
 {
