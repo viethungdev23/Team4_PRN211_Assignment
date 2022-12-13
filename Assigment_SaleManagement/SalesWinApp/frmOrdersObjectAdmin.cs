@@ -28,6 +28,8 @@ public partial class frmOrdersObjectAdmin : Form
         };
 
         dgvOrder.DataSource = source;
+        dgvOrder.Columns["Member"].Visible = false;
+        dgvOrder.Columns["OrderDetails"].Visible = false;
     }
 
     private void frmOrdersObjectAdmin_Load(object sender, EventArgs e)

@@ -23,6 +23,9 @@ public partial class frmOrdersObjectMember : Form
         };
 
         dgvOrder.DataSource = source;
+
+        dgvOrder.Columns["Member"].Visible = false;
+        dgvOrder.Columns["OrderDetails"].Visible = false;
     }
 
     private void frmOrdersObjectMember_Load(object sender, EventArgs e)

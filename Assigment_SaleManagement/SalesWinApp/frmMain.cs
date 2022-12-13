@@ -12,6 +12,11 @@ public partial class frmMain : Form
         InitializeComponent();
     }
 
+    private void logout_Click(object sender, EventArgs e)
+    {
+        
+    }
+
     private void mMemberManagement_Click(object sender, EventArgs e)
     {
         if (this.frmMembers is null || this.frmMembers.IsDisposed)
