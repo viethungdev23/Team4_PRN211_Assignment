@@ -29,6 +29,7 @@ public partial class frmProductsObject : Form
         _bindingSource = new BindingSource();
         _bindingSource.DataSource = _repository.GetAllProduct();
         dvgProduct.DataSource = _bindingSource;
+        dvgProduct.Columns["OrderDetails"].Visible = false;
     }
 
     private void btnClose_Click(object sender, EventArgs e)

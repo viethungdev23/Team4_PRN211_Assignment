@@ -15,6 +15,8 @@ public partial class frmMemberDetails : Form
     private void btnClose_Click(object sender, EventArgs e)
     {
         this.Close();
+        frmProfile frmProfile = new frmProfile(member.MemberId);
+        frmProfile.Show();
     }
 
     private void btnSave_Click(object sender, EventArgs e)
