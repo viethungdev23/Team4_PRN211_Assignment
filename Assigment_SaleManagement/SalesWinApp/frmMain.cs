@@ -14,7 +14,7 @@ public partial class frmMain : Form
 
     private void logout_Click(object sender, EventArgs e)
     {
-        
+
     }
 
     private void mMemberManagement_Click(object sender, EventArgs e)
@@ -25,7 +25,8 @@ public partial class frmMain : Form
             this.frmMembers.MdiParent = this;
             this.frmMembers.Show();
         }
-        else {
+        else
+        {
             this.frmMembers.Select();
         }
     }
@@ -60,27 +61,28 @@ public partial class frmMain : Form
 
     private void frmMain_MdiChildActivate(object sender, EventArgs e)
     {
-        if (this.ActiveMdiChild == null) {
+        if (this.ActiveMdiChild == null)
+        {
             return;
         }
         this.ActiveMdiChild.WindowState = FormWindowState.Maximized;
-        if (this.ActiveMdiChild.Tag == null) { 
+        if (this.ActiveMdiChild.Tag == null)
+        {
             TabPage tabPage = new TabPage(this.ActiveMdiChild.Text);
             tabPage.Tag = this.ActiveMdiChild;
             tabPage.Parent = this.tabMain;
             this.tabMain.SelectedTab = tabPage;
             this.ActiveMdiChild.Tag = tabPage;
-            this.ActiveMdiChild.FormClosed += new FormClosedEventHandler(frmMain_FormClosed());
+            this.ActiveMdiChild.FormClosed += frmMain_FormClosed;
         }
-    }
     }
 
     private void tabMain_SelectedIndexChanged(object sender, EventArgs e)
     {
-        if (this.tabMain.SelectedTab != null && this.tabMain.SelectedTab.Tag != null) {
+        if (this.tabMain.SelectedTab != null && this.tabMain.SelectedTab.Tag != null)
+        {
             (this.tabMain.SelectedTab.Tag as Form).Select();
         }
-
     }
 
     private void frmMain_FormClosed(object sender, FormClosedEventArgs e)

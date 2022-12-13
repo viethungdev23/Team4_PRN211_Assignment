@@ -65,7 +65,7 @@
             // dvgProduct
             // 
             this.dvgProduct.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dvgProduct.Location = new System.Drawing.Point(2, 191);
+            this.dvgProduct.Location = new System.Drawing.Point(2, 179);
             this.dvgProduct.Name = "dvgProduct";
             this.dvgProduct.ReadOnly = true;
             this.dvgProduct.RowTemplate.Height = 25;
@@ -89,7 +89,7 @@
             // 
             // btnAdd
             // 
-            this.btnAdd.Location = new System.Drawing.Point(200, 157);
+            this.btnAdd.Location = new System.Drawing.Point(200, 140);
             this.btnAdd.Name = "btnAdd";
             this.btnAdd.Size = new System.Drawing.Size(75, 23);
             this.btnAdd.TabIndex = 3;
@@ -99,7 +99,7 @@
             // 
             // btnDelete
             // 
-            this.btnDelete.Location = new System.Drawing.Point(369, 157);
+            this.btnDelete.Location = new System.Drawing.Point(369, 140);
             this.btnDelete.Name = "btnDelete";
             this.btnDelete.Size = new System.Drawing.Size(75, 23);
             this.btnDelete.TabIndex = 4;
@@ -109,7 +109,7 @@
             // 
             // btnClose
             // 
-            this.btnClose.Location = new System.Drawing.Point(534, 157);
+            this.btnClose.Location = new System.Drawing.Point(535, 140);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(75, 23);
             this.btnClose.TabIndex = 5;
