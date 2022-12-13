@@ -47,7 +47,6 @@
             // 
             // txtCountry
             // 
-
             this.txtCountry.Location = new System.Drawing.Point(278, 264);
             this.txtCountry.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtCountry.Name = "txtCountry";
@@ -56,7 +55,6 @@
             // 
             // txtCity
             // 
-
             this.txtCity.Location = new System.Drawing.Point(278, 225);
             this.txtCity.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtCity.Name = "txtCity";
@@ -65,7 +63,6 @@
             // 
             // txtCompany
             // 
-
             this.txtCompany.Location = new System.Drawing.Point(278, 187);
             this.txtCompany.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtCompany.Name = "txtCompany";
@@ -74,7 +71,6 @@
             // 
             // txtPassword
             // 
-
             this.txtPassword.Location = new System.Drawing.Point(278, 148);
             this.txtPassword.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtPassword.Name = "txtPassword";
@@ -84,7 +80,6 @@
             // 
             // txtEmail
             // 
-
             this.txtEmail.Location = new System.Drawing.Point(278, 109);
             this.txtEmail.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtEmail.Name = "txtEmail";
@@ -93,7 +88,6 @@
             // 
             // txtMemberId
             // 
-
             this.txtMemberId.Location = new System.Drawing.Point(278, 71);
             this.txtMemberId.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtMemberId.Name = "txtMemberId";
@@ -103,7 +97,6 @@
             // label6
             // 
             this.label6.AutoSize = true;
-
             this.label6.Location = new System.Drawing.Point(197, 228);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(34, 20);
@@ -113,7 +106,6 @@
             // label5
             // 
             this.label5.AutoSize = true;
-
             this.label5.Location = new System.Drawing.Point(197, 191);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(72, 20);
@@ -123,7 +115,6 @@
             // label4
             // 
             this.label4.AutoSize = true;
-
             this.label4.Location = new System.Drawing.Point(197, 268);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(60, 20);
@@ -133,7 +124,6 @@
             // label3
             // 
             this.label3.AutoSize = true;
-
             this.label3.Location = new System.Drawing.Point(197, 152);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(70, 20);
@@ -143,7 +133,6 @@
             // label2
             // 
             this.label2.AutoSize = true;
-
             this.label2.Location = new System.Drawing.Point(197, 112);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(46, 20);
@@ -153,7 +142,6 @@
             // label1
             // 
             this.label1.AutoSize = true;
-
             this.label1.Location = new System.Drawing.Point(197, 75);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(82, 20);
@@ -162,7 +150,6 @@
             // 
             // btnUpdate
             // 
-
             this.btnUpdate.Location = new System.Drawing.Point(327, 343);
             this.btnUpdate.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnUpdate.Name = "btnUpdate";
@@ -174,7 +161,6 @@
             // 
             // btnHistory
             // 
-
             this.btnHistory.Location = new System.Drawing.Point(168, 343);
             this.btnHistory.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnHistory.Name = "btnHistory";
@@ -191,13 +177,12 @@
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(86, 31);
             this.btnClose.TabIndex = 26;
-            this.btnClose.Text = "Close";
+            this.btnClose.Text = "Log out";
             this.btnClose.UseVisualStyleBackColor = true;
             this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
             // 
             // frmProfile
             // 
-
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(712, 459);
@@ -216,7 +201,6 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "frmProfile";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

@@ -47,6 +47,8 @@ namespace SaleManagement.winform
         private void btnClose_Click(object sender, EventArgs e)
         {
             this.Close();
+            frmLogin frmLogin = new frmLogin();
+            frmLogin.Show();
         }
 
         private void btnUpdate_Click(object sender, EventArgs e)

@@ -29,6 +29,8 @@ public partial class frmMembers : Form
         _bindingSource = new BindingSource();
         _bindingSource.DataSource = _memberRepository.GetAllMember();
         dvgMembers.DataSource = _bindingSource;
+        dvgMembers.Columns["Orders"].Visible = false;
+
     }
 
     private void btnAdd_Click(object sender, EventArgs e)
