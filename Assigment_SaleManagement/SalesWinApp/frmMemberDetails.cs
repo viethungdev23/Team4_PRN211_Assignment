@@ -25,7 +25,7 @@ public partial class frmMemberDetails : Form
     private void btnSave_Click(object sender, EventArgs e)
     {
         // collect thong tin trong form
-        var result = MessageBox.Show("Are you sure you want to update Account", "Are you sure?", MessageBoxButtons.YesNo);
+        var result = MessageBox.Show("Are you sure you want to insert or update Account", "Are you sure?", MessageBoxButtons.YesNo);
         if(result == DialogResult.Yes)
         {
             if (CheckValid())
