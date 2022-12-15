@@ -59,21 +59,28 @@ public partial class frmOrderObjectDetailUpdate : Form
 
     private void btnUpdate_Click(object sender, EventArgs e)
     {
-        if (order.OrderDate > dteRequiredDate.Value)
+        var result = MessageBox.Show("Are you sure you want to insert or update", "Are you sure?", MessageBoxButtons.YesNo);
+        if (result == DialogResult.Yes)
         {
-            MessageBox.Show("Required date must be after order date");
-        } else if (order.OrderDate > dteShippedDate.Value)
-        {
-            MessageBox.Show("Shipped date must be after order date");
-        } else
-        {
-            order.RequiredDate = dteRequiredDate.Value;
-            order.ShippedDate = dteShippedDate.Value;
-            order.Freight = numFreight.Value;
+            if (order.OrderDate > dteRequiredDate.Value)
+            {
+                MessageBox.Show("Required date must be after order date");
+            }
+            else if (order.OrderDate > dteShippedDate.Value)
+            {
+                MessageBox.Show("Shipped date must be after order date");
+            }
+            else
+            {
+                order.RequiredDate = dteRequiredDate.Value;
+                order.ShippedDate = dteShippedDate.Value;
+                order.Freight = numFreight.Value;
 
-            orderRepository.Update(order);
+                orderRepository.Update(order);
 
-            this.DialogResult = DialogResult.OK;
+                this.DialogResult = DialogResult.OK;
+            }
         }
+            
     }
 }
