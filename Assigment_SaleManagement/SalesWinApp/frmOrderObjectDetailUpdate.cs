@@ -10,17 +10,19 @@ public partial class frmOrderObjectDetailUpdate : Form
     private BindingSource source;
     private IOrderRepository orderRepository;
     private IProductRepository productRepository;
+    private IMemberRepository memberRepository;
     public frmOrderObjectDetailUpdate()
     {
         InitializeComponent();
         orderRepository = new OrderRepository();
         productRepository = new ProductRepository();
+        memberRepository = new MemberRepository();
     }
 
     private void frmOrderObjectDetailUpdate_Load(object sender, EventArgs e)
     {
         txtOrderId.Text = order.OrderId.ToString();
-        txtMemberEmail.Text = order.Member.Email;
+        txtMemberEmail.Text = memberRepository.GetMemberById(order.MemberId).Email;
         dteOrderDate.Value = order.OrderDate;
         dteShippedDate.Value = (DateTime)order.ShippedDate;
         dteRequiredDate.Value = (DateTime)order.RequiredDate;
