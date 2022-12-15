@@ -54,7 +54,7 @@ public partial class frmOrderObjectDetailUpdate : Form
     {
         this.Close();
     }
-
+     
     private void btnUpdate_Click(object sender, EventArgs e)
     {
         if (order.OrderDate > dteRequiredDate.Value)
