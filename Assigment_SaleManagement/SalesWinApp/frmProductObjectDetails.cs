@@ -20,29 +20,34 @@ public partial class frmProductObjectDetails : Form
 
     private void btnSave_Click(object sender, EventArgs e)
     {
-        if (CheckValid())
+        var result = MessageBox.Show("Are you sure you want to insert or update", "Are you sure?", MessageBoxButtons.YesNo);
+        if (result == DialogResult.Yes)
         {
-            var c = new Product
+            if (CheckValid())
             {
-                ProductId = int.Parse(txtProductId.Text),
-                ProductName = txtProductName.Text,
-                Category = int.Parse(txtCategory.Text),
-                Weight = txtWeight.Text,
-                UnitPrice = Convert.ToDecimal(txtUnitPrice.Text),
-                UnitsInStock = int.Parse(txtUnitInStock.Text),
-            };
-            //save to database
-            if (InsertOrUpdate)
-            {
-                productRepository.Update(c);
+                var c = new Product
+                {
+                    ProductId = int.Parse(txtProductId.Text),
+                    ProductName = txtProductName.Text,
+                    Category = int.Parse(txtCategory.Text),
+                    Weight = txtWeight.Text,
+                    UnitPrice = Convert.ToDecimal(txtUnitPrice.Text),
+                    UnitsInStock = int.Parse(txtUnitInStock.Text),
+                };
+                //save to database
+                if (InsertOrUpdate)
+                {
+                    productRepository.Update(c);
+                }
+                else
+                {
+                    productRepository.CreateMember(c);
+                }
+                // load lai 
+                this.DialogResult = DialogResult.OK;
             }
-            else
-            {
-                productRepository.CreateMember(c);
-            }
-            // load lai 
-            this.DialogResult = DialogResult.OK;
         }
+           
         
     }
 

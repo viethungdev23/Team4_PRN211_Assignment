@@ -39,10 +39,15 @@ public partial class frmOrdersObjectAdmin : Form
 
     private void btnDelete_Click(object sender, EventArgs e)
     {
-        var rowIndex = dgvOrder.CurrentCell.RowIndex;
-        MessageBox.Show(dgvOrder.Rows[rowIndex].Cells[0].Value.ToString());
-        orderRepository.Delete(Int32.Parse(dgvOrder.Rows[rowIndex].Cells[0].Value.ToString()));
-        LoadDgvData();
+        var result = MessageBox.Show("Are you sure you want to delete", "Are you sure?", MessageBoxButtons.YesNo);
+        if(result == DialogResult.Yes) 
+        {
+            var rowIndex = dgvOrder.CurrentCell.RowIndex;
+            MessageBox.Show(dgvOrder.Rows[rowIndex].Cells[0].Value.ToString());
+            orderRepository.Delete(Int32.Parse(dgvOrder.Rows[rowIndex].Cells[0].Value.ToString()));
+            LoadDgvData();
+        }
+        
     }
 
     private void btnAdd_Click(object sender, EventArgs e)
