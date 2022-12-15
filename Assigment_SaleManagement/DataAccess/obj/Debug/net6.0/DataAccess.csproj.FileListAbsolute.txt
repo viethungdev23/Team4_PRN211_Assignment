@@ -1,0 +1,14 @@
+F:\PRN_3w\WorkSpace\Team4_PRN211_Assignment-main\Assigment_SaleManagement\DataAccess\bin\Debug\net6.0\DataAccess.deps.json
+F:\PRN_3w\WorkSpace\Team4_PRN211_Assignment-main\Assigment_SaleManagement\DataAccess\bin\Debug\net6.0\DataAccess.runtimeconfig.json
+F:\PRN_3w\WorkSpace\Team4_PRN211_Assignment-main\Assigment_SaleManagement\DataAccess\bin\Debug\net6.0\DataAccess.dll
+F:\PRN_3w\WorkSpace\Team4_PRN211_Assignment-main\Assigment_SaleManagement\DataAccess\bin\Debug\net6.0\DataAccess.pdb
+F:\PRN_3w\WorkSpace\Team4_PRN211_Assignment-main\Assigment_SaleManagement\DataAccess\obj\Debug\net6.0\DataAccess.csproj.AssemblyReference.cache
+F:\PRN_3w\WorkSpace\Team4_PRN211_Assignment-main\Assigment_SaleManagement\DataAccess\obj\Debug\net6.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+F:\PRN_3w\WorkSpace\Team4_PRN211_Assignment-main\Assigment_SaleManagement\DataAccess\obj\Debug\net6.0\DataAccess.AssemblyInfoInputs.cache
+F:\PRN_3w\WorkSpace\Team4_PRN211_Assignment-main\Assigment_SaleManagement\DataAccess\obj\Debug\net6.0\DataAccess.AssemblyInfo.cs
+F:\PRN_3w\WorkSpace\Team4_PRN211_Assignment-main\Assigment_SaleManagement\DataAccess\obj\Debug\net6.0\DataAccess.csproj.CoreCompileInputs.cache
+F:\PRN_3w\WorkSpace\Team4_PRN211_Assignment-main\Assigment_SaleManagement\DataAccess\obj\Debug\net6.0\DataAccess.dll
+F:\PRN_3w\WorkSpace\Team4_PRN211_Assignment-main\Assigment_SaleManagement\DataAccess\obj\Debug\net6.0\refint\DataAccess.dll
+F:\PRN_3w\WorkSpace\Team4_PRN211_Assignment-main\Assigment_SaleManagement\DataAccess\obj\Debug\net6.0\DataAccess.pdb
+F:\PRN_3w\WorkSpace\Team4_PRN211_Assignment-main\Assigment_SaleManagement\DataAccess\obj\Debug\net6.0\DataAccess.genruntimeconfig.cache
+F:\PRN_3w\WorkSpace\Team4_PRN211_Assignment-main\Assigment_SaleManagement\DataAccess\obj\Debug\net6.0\ref\DataAccess.dll
