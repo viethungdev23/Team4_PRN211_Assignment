@@ -25,7 +25,7 @@ namespace SaleManagement.winform
             }
             else {
                 var email = _memberRepository.GetAdminEmail();
-                var pass = _memberRepository.GetAdminPassword();
+                var password = _memberRepository.GetAdminPassword();
                 var member = this._memberRepository.GetMembers().Where(a => a.Email == txtEmail.Text
                      && a.Password == txtPassword.Text).FirstOrDefault();
                 if (member != null && member.Email != email ) {
@@ -37,7 +37,7 @@ namespace SaleManagement.winform
                 {
                     MessageBox.Show("Email Incorrect!");
                 }
-                else if (txtPassword.Text != pass)
+                else if (txtPassword.Text != password)
                 {
 
                     MessageBox.Show("Incorrect Password");

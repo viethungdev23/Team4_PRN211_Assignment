@@ -35,12 +35,12 @@ public partial class frmMembers : Form
 
     private void btnAdd_Click(object sender, EventArgs e)
     {
-        frmMemberDetails frmMemberDetails = new frmMemberDetails
+        frmMemberDetails FrmMemberDetails = new frmMemberDetails
         {
             InsertOrUpdate = false,
             memberRepository = _memberRepository
         };
-        if (frmMemberDetails.ShowDialog() == DialogResult.OK) {
+        if (FrmMemberDetails.ShowDialog() == DialogResult.OK) {
             LoadDataToDgv();
             _bindingSource.Position = _bindingSource.Count - 1;
         }
@@ -53,8 +53,8 @@ public partial class frmMembers : Form
         {
             if (_member != null)
             {
-                bool check = _memberRepository.Delete(_member.MemberId);
-                if (check)
+                bool checkmember = _memberRepository.Delete(_member.MemberId);
+                if (checkmember)
                 {
                     LoadDataToDgv();
                     MessageBox.Show("Delete successfully");
