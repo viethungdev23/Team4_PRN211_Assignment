@@ -49,7 +49,7 @@ public partial class frmMembers : Form
 
     private void btnDelete_Click(object sender, EventArgs e)
     {
-        if (MessageBox.Show("Are you sure to Delete this record ?", "Delete Operator", MessageBoxButtons.YesNo) == DialogResult.Yes)
+        if (MessageBox.Show("Do you want to delete this record ?", "Delete Operator", MessageBoxButtons.YesNo) == DialogResult.Yes)
         {
             if (_member != null)
             {
@@ -62,7 +62,7 @@ public partial class frmMembers : Form
             }
             else
             {
-                MessageBox.Show("You need to click on record you wanto delete");
+                MessageBox.Show("You need to click on record you want to delete");
             }
         }
     }

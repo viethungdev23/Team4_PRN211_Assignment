@@ -17,11 +17,11 @@ namespace SaleManagement.winform
             //1 validate null
             if (txtEmail.Text == String.Empty || txtEmail.Text == "")
             {
-                MessageBox.Show("Please input Email!");
+                MessageBox.Show("Please type your  Email!");
             }
             else if (txtPassword.Text == "")
             {
-                MessageBox.Show("Please input password");
+                MessageBox.Show("Please type your password");
             }
             else {
                 var email = _memberRepository.GetAdminEmail();
