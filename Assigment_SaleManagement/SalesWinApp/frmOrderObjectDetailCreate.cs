@@ -108,7 +108,7 @@ public partial class frmOrderObjectDetailCreate : Form
         {   
             if (productNum == 0)
             {
-                MessageBox.Show("Product number must be larger than 0");
+                MessageBox.Show("Product quanttity must be larger than 0");
                 return;
             }
             orderDetail = new OrderDetail
