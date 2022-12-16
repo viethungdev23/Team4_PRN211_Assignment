@@ -185,6 +185,11 @@
             // numFreight
             // 
             this.numFreight.Location = new System.Drawing.Point(597, 150);
+            this.numFreight.Maximum = new decimal(new int[] {
+            1410065407,
+            2,
+            0,
+            0});
             this.numFreight.Name = "numFreight";
             this.numFreight.Size = new System.Drawing.Size(250, 27);
             this.numFreight.TabIndex = 28;

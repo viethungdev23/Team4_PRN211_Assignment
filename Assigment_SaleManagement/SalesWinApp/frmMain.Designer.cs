@@ -34,6 +34,7 @@
             this.mProductManagement = new System.Windows.Forms.ToolStripMenuItem();
             this.mOrderManagement = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip2 = new System.Windows.Forms.MenuStrip();
+            this.Logout = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip2.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -44,7 +45,11 @@
             this.tabMain.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.tabMain.Name = "tabMain";
             this.tabMain.SelectedIndex = 0;
+<<<<<<< HEAD
             this.tabMain.Size = new System.Drawing.Size(949, 37);
+=======
+            this.tabMain.Size = new System.Drawing.Size(914, 51);
+>>>>>>> main
             this.tabMain.TabIndex = 2;
             this.tabMain.SelectedIndexChanged += new System.EventHandler(this.tabMain_SelectedIndexChanged);
             // 
@@ -85,19 +90,35 @@
             // 
             this.menuStrip2.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStrip2.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.mFunction});
+            this.mFunction,
+            this.Logout});
             this.menuStrip2.Location = new System.Drawing.Point(0, 0);
             this.menuStrip2.Name = "menuStrip2";
             this.menuStrip2.Padding = new System.Windows.Forms.Padding(7, 3, 0, 3);
+<<<<<<< HEAD
             this.menuStrip2.Size = new System.Drawing.Size(949, 30);
+=======
+            this.menuStrip2.Size = new System.Drawing.Size(914, 30);
+>>>>>>> main
             this.menuStrip2.TabIndex = 1;
             this.menuStrip2.Text = "menuStrip2";
+            // 
+            // Logout
+            // 
+            this.Logout.Name = "Logout";
+            this.Logout.Size = new System.Drawing.Size(70, 24);
+            this.Logout.Text = "Logout";
+            this.Logout.Click += new System.EventHandler(this.Logout_Click_1);
             // 
             // frmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+<<<<<<< HEAD
             this.ClientSize = new System.Drawing.Size(949, 599);
+=======
+            this.ClientSize = new System.Drawing.Size(914, 600);
+>>>>>>> main
             this.Controls.Add(this.tabMain);
             this.Controls.Add(this.menuStrip2);
             this.IsMdiContainer = true;
@@ -105,8 +126,11 @@
             this.Name = "frmMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Main";
+<<<<<<< HEAD
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.frmMain_FormClosed);
             this.Load += new System.EventHandler(this.frmMain_Load);
+=======
+>>>>>>> main
             this.MdiChildActivate += new System.EventHandler(this.frmMain_MdiChildActivate);
             this.Shown += new System.EventHandler(this.frmMain_Shown);
             this.menuStrip2.ResumeLayout(false);
@@ -123,5 +147,6 @@
         private ToolStripMenuItem mProductManagement;
         private ToolStripMenuItem mOrderManagement;
         private MenuStrip menuStrip2;
+        private ToolStripMenuItem Logout;
     }
 }

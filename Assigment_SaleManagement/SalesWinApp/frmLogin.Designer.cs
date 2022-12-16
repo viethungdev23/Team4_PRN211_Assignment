@@ -35,12 +35,18 @@
             this.btnLogin = new System.Windows.Forms.Button();
             this.btnClose = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
+<<<<<<< HEAD
             this.label1.Location = new System.Drawing.Point(146, 147);
+=======
+            this.label1.Location = new System.Drawing.Point(412, 110);
+>>>>>>> main
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(46, 20);
             this.label1.TabIndex = 0;
@@ -49,7 +55,11 @@
             // label2
             // 
             this.label2.AutoSize = true;
+<<<<<<< HEAD
             this.label2.Location = new System.Drawing.Point(146, 207);
+=======
+            this.label2.Location = new System.Drawing.Point(388, 159);
+>>>>>>> main
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(70, 20);
             this.label2.TabIndex = 1;
@@ -57,7 +67,11 @@
             // 
             // txtEmail
             // 
+<<<<<<< HEAD
             this.txtEmail.Location = new System.Drawing.Point(229, 136);
+=======
+            this.txtEmail.Location = new System.Drawing.Point(464, 103);
+>>>>>>> main
             this.txtEmail.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtEmail.Name = "txtEmail";
             this.txtEmail.Size = new System.Drawing.Size(225, 27);
@@ -65,7 +79,11 @@
             // 
             // txtPassword
             // 
+<<<<<<< HEAD
             this.txtPassword.Location = new System.Drawing.Point(229, 196);
+=======
+            this.txtPassword.Location = new System.Drawing.Point(464, 156);
+>>>>>>> main
             this.txtPassword.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtPassword.Name = "txtPassword";
             this.txtPassword.PasswordChar = '*';
@@ -74,7 +92,11 @@
             // 
             // btnLogin
             // 
+<<<<<<< HEAD
             this.btnLogin.Location = new System.Drawing.Point(220, 287);
+=======
+            this.btnLogin.Location = new System.Drawing.Point(451, 205);
+>>>>>>> main
             this.btnLogin.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnLogin.Name = "btnLogin";
             this.btnLogin.Size = new System.Drawing.Size(86, 31);
@@ -85,7 +107,11 @@
             // 
             // btnClose
             // 
+<<<<<<< HEAD
             this.btnClose.Location = new System.Drawing.Point(368, 287);
+=======
+            this.btnClose.Location = new System.Drawing.Point(570, 205);
+>>>>>>> main
             this.btnClose.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(86, 31);
@@ -98,17 +124,36 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+<<<<<<< HEAD
             this.label3.Location = new System.Drawing.Point(278, 52);
+=======
+            this.label3.Location = new System.Drawing.Point(329, 42);
+>>>>>>> main
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(99, 37);
             this.label3.TabIndex = 6;
             this.label3.Text = "LOGIN";
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::SalesWinApp.Properties.Resources.tải_xuống;
+            this.pictureBox1.Location = new System.Drawing.Point(25, 93);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(324, 156);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox1.TabIndex = 7;
+            this.pictureBox1.TabStop = false;
+            // 
             // frmLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+<<<<<<< HEAD
             this.ClientSize = new System.Drawing.Size(655, 447);
+=======
+            this.ClientSize = new System.Drawing.Size(826, 307);
+            this.Controls.Add(this.pictureBox1);
+>>>>>>> main
             this.Controls.Add(this.label3);
             this.Controls.Add(this.btnClose);
             this.Controls.Add(this.btnLogin);
@@ -121,6 +166,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Login";
             this.Load += new System.EventHandler(this.frmLogin_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -135,5 +181,6 @@
         private Button btnLogin;
         private Button btnClose;
         private Label label3;
+        private PictureBox pictureBox1;
     }
 }

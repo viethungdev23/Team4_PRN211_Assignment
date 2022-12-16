@@ -87,7 +87,15 @@ public partial class frmMain : Form
 
     private void frmMain_FormClosed(object sender, FormClosedEventArgs e)
     {
-        ((sender as Form).Tag as TabPage).Dispose();
+        Application.Exit();
+        //((sender as Form).Tag as TabPage).Dispose();
+    }
+
+    private void Logout_Click_1(object sender, EventArgs e)
+    {
+        this.Close();
+        frmLogin frmLogin = new frmLogin();
+        frmLogin.Show();
     }
 
     private void frmMain_Load(object sender, EventArgs e)
