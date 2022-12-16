@@ -237,7 +237,7 @@ public partial class frmOrderObjectDetailCreate : Form
             orderRepository.Create(order);
         } catch (Exception)
         {
-            MessageBox.Show("Order ID already exist");
+            MessageBox.Show("This Order ID is already exist");
             return;
         }
 
