@@ -35,12 +35,12 @@ namespace SaleManagement.winform
                 }
                 else if (txtEmail.Text != email)
                 {
-                    MessageBox.Show("Email Incorrect!");
+                    MessageBox.Show("Your Email is Incorrect!");
                 }
                 else if (txtPassword.Text != password)
                 {
 
-                    MessageBox.Show("Incorrect Password");
+                    MessageBox.Show("Your Password is Incorrect ");
                 }
                 else {
                     frmMain frmMain = new();

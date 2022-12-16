@@ -72,6 +72,11 @@ public partial class frmMemberDetails : Form
         }
     }
 
+<<<<<<< HEAD
+    private void button1_Click(object sender, EventArgs e)
+    {
+
+=======
     private bool CheckValid()
     {
         if(txtEmail.Text.Trim() == "" || txtPassword.Text.Trim() == "")
@@ -85,5 +90,6 @@ public partial class frmMemberDetails : Form
             return false;
         }
         return true;
+>>>>>>> main
     }
 }

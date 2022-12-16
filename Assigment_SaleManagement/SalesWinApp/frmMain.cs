@@ -97,4 +97,14 @@ public partial class frmMain : Form
         frmLogin frmLogin = new frmLogin();
         frmLogin.Show();
     }
+
+    private void frmMain_Load(object sender, EventArgs e)
+    {
+       
+    }
+
+    private void frmMain_Shown(object sender, EventArgs e)
+    {
+        MessageBox.Show("Welcome admin please click on the menu option to manage app");
+    }
 }

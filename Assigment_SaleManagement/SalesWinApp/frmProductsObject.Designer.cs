@@ -65,33 +65,32 @@
             // dvgProduct
             // 
             this.dvgProduct.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dvgProduct.Location = new System.Drawing.Point(2, 179);
+            this.dvgProduct.Location = new System.Drawing.Point(2, 239);
+            this.dvgProduct.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.dvgProduct.Name = "dvgProduct";
             this.dvgProduct.ReadOnly = true;
+            this.dvgProduct.RowHeadersWidth = 51;
             this.dvgProduct.RowTemplate.Height = 25;
-            this.dvgProduct.Size = new System.Drawing.Size(796, 247);
+            this.dvgProduct.Size = new System.Drawing.Size(910, 329);
             this.dvgProduct.TabIndex = 0;
             this.dvgProduct.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dvgProduct_CellClick);
             this.dvgProduct.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dvgProduct_CellDoubleClick);
             // 
-            // productBindingSource
-            // 
-            this.productBindingSource.DataSource = typeof(DataAccess.Models.Product);
-            // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(12, 34);
+            this.label1.Location = new System.Drawing.Point(14, 45);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(71, 15);
+            this.label1.Size = new System.Drawing.Size(90, 20);
             this.label1.TabIndex = 2;
             this.label1.Text = "Search Filter";
             // 
             // btnAdd
             // 
-            this.btnAdd.Location = new System.Drawing.Point(200, 140);
+            this.btnAdd.Location = new System.Drawing.Point(229, 187);
+            this.btnAdd.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnAdd.Name = "btnAdd";
-            this.btnAdd.Size = new System.Drawing.Size(75, 23);
+            this.btnAdd.Size = new System.Drawing.Size(86, 31);
             this.btnAdd.TabIndex = 3;
             this.btnAdd.Text = "Add";
             this.btnAdd.UseVisualStyleBackColor = true;
@@ -99,9 +98,10 @@
             // 
             // btnDelete
             // 
-            this.btnDelete.Location = new System.Drawing.Point(369, 140);
+            this.btnDelete.Location = new System.Drawing.Point(423, 187);
+            this.btnDelete.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnDelete.Name = "btnDelete";
-            this.btnDelete.Size = new System.Drawing.Size(75, 23);
+            this.btnDelete.Size = new System.Drawing.Size(86, 31);
             this.btnDelete.TabIndex = 4;
             this.btnDelete.Text = "Delete";
             this.btnDelete.UseVisualStyleBackColor = true;
@@ -109,9 +109,10 @@
             // 
             // btnClose
             // 
-            this.btnClose.Location = new System.Drawing.Point(535, 140);
+            this.btnClose.Location = new System.Drawing.Point(611, 187);
+            this.btnClose.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnClose.Name = "btnClose";
-            this.btnClose.Size = new System.Drawing.Size(75, 23);
+            this.btnClose.Size = new System.Drawing.Size(86, 31);
             this.btnClose.TabIndex = 5;
             this.btnClose.Text = "Close";
             this.btnClose.UseVisualStyleBackColor = true;
@@ -123,9 +124,10 @@
             this.flowLayoutPanel1.Controls.Add(this.panel2);
             this.flowLayoutPanel1.Controls.Add(this.panel3);
             this.flowLayoutPanel1.Controls.Add(this.panel4);
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(2, 52);
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(2, 69);
+            this.flowLayoutPanel1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(796, 61);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(910, 81);
             this.flowLayoutPanel1.TabIndex = 6;
             this.flowLayoutPanel1.Paint += new System.Windows.Forms.PaintEventHandler(this.flowLayoutPanel1_Paint);
             // 
@@ -133,25 +135,27 @@
             // 
             this.panel1.Controls.Add(this.txtId);
             this.panel1.Controls.Add(this.label2);
-            this.panel1.Location = new System.Drawing.Point(3, 3);
+            this.panel1.Location = new System.Drawing.Point(3, 4);
+            this.panel1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(161, 48);
+            this.panel1.Size = new System.Drawing.Size(184, 64);
             this.panel1.TabIndex = 0;
             // 
             // txtId
             // 
-            this.txtId.Location = new System.Drawing.Point(30, 12);
+            this.txtId.Location = new System.Drawing.Point(34, 16);
+            this.txtId.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtId.Name = "txtId";
-            this.txtId.Size = new System.Drawing.Size(120, 23);
+            this.txtId.Size = new System.Drawing.Size(137, 27);
             this.txtId.TabIndex = 8;
             this.txtId.ValueChanged += new System.EventHandler(this.txtId_ValueChanged);
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(3, 15);
+            this.label2.Location = new System.Drawing.Point(3, 20);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(21, 15);
+            this.label2.Size = new System.Drawing.Size(27, 20);
             this.label2.TabIndex = 0;
             this.label2.Text = "ID:";
             // 
@@ -159,25 +163,27 @@
             // 
             this.panel2.Controls.Add(this.txtProductName);
             this.panel2.Controls.Add(this.label3);
-            this.panel2.Location = new System.Drawing.Point(170, 3);
+            this.panel2.Location = new System.Drawing.Point(193, 4);
+            this.panel2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(205, 48);
+            this.panel2.Size = new System.Drawing.Size(234, 64);
             this.panel2.TabIndex = 2;
             // 
             // txtProductName
             // 
-            this.txtProductName.Location = new System.Drawing.Point(93, 12);
+            this.txtProductName.Location = new System.Drawing.Point(106, 16);
+            this.txtProductName.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtProductName.Name = "txtProductName";
-            this.txtProductName.Size = new System.Drawing.Size(100, 23);
+            this.txtProductName.Size = new System.Drawing.Size(114, 27);
             this.txtProductName.TabIndex = 1;
             this.txtProductName.TextChanged += new System.EventHandler(this.txtProductName_TextChanged);
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(3, 15);
+            this.label3.Location = new System.Drawing.Point(3, 20);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(84, 15);
+            this.label3.Size = new System.Drawing.Size(103, 20);
             this.label3.TabIndex = 0;
             this.label3.Text = "ProductName:";
             // 
@@ -185,9 +191,10 @@
             // 
             this.panel3.Controls.Add(this.txtUnitPrice);
             this.panel3.Controls.Add(this.label4);
-            this.panel3.Location = new System.Drawing.Point(381, 3);
+            this.panel3.Location = new System.Drawing.Point(433, 4);
+            this.panel3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(197, 48);
+            this.panel3.Size = new System.Drawing.Size(225, 64);
             this.panel3.TabIndex = 3;
             // 
             // txtUnitPrice
@@ -197,23 +204,24 @@
             0,
             0,
             0});
-            this.txtUnitPrice.Location = new System.Drawing.Point(67, 12);
+            this.txtUnitPrice.Location = new System.Drawing.Point(77, 16);
+            this.txtUnitPrice.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtUnitPrice.Maximum = new decimal(new int[] {
             -727379969,
             232,
             0,
             0});
             this.txtUnitPrice.Name = "txtUnitPrice";
-            this.txtUnitPrice.Size = new System.Drawing.Size(120, 23);
+            this.txtUnitPrice.Size = new System.Drawing.Size(137, 27);
             this.txtUnitPrice.TabIndex = 1;
             this.txtUnitPrice.ValueChanged += new System.EventHandler(this.txtUnitPrice_ValueChanged);
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(3, 15);
+            this.label4.Location = new System.Drawing.Point(3, 20);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(58, 15);
+            this.label4.Size = new System.Drawing.Size(71, 20);
             this.label4.TabIndex = 0;
             this.label4.Text = "UnitPrice:";
             // 
@@ -221,43 +229,42 @@
             // 
             this.panel4.Controls.Add(this.txtUnitInStock);
             this.panel4.Controls.Add(this.label5);
-            this.panel4.Location = new System.Drawing.Point(584, 3);
+            this.panel4.Location = new System.Drawing.Point(664, 4);
+            this.panel4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(201, 48);
+            this.panel4.Size = new System.Drawing.Size(230, 64);
             this.panel4.TabIndex = 4;
             // 
             // txtUnitInStock
             // 
-            this.txtUnitInStock.Location = new System.Drawing.Point(80, 12);
+            this.txtUnitInStock.Location = new System.Drawing.Point(91, 16);
+            this.txtUnitInStock.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtUnitInStock.Name = "txtUnitInStock";
-            this.txtUnitInStock.Size = new System.Drawing.Size(120, 23);
+            this.txtUnitInStock.Size = new System.Drawing.Size(137, 27);
             this.txtUnitInStock.TabIndex = 8;
             this.txtUnitInStock.ValueChanged += new System.EventHandler(this.txtUnitInStock_ValueChanged);
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(3, 15);
+            this.label5.Location = new System.Drawing.Point(3, 20);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(71, 15);
+            this.label5.Size = new System.Drawing.Size(87, 20);
             this.label5.TabIndex = 0;
             this.label5.Text = "UnitInStock:";
             // 
-            // productRepositoryBindingSource
-            // 
-            this.productRepositoryBindingSource.DataSource = typeof(DataAccess.Repository.ProductRepository);
-            // 
             // frmProductsObject
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(914, 600);
             this.Controls.Add(this.flowLayoutPanel1);
             this.Controls.Add(this.btnClose);
             this.Controls.Add(this.btnDelete);
             this.Controls.Add(this.btnAdd);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.dvgProduct);
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "frmProductsObject";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Product Object Management";

@@ -58,7 +58,11 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(95, 123);
             this.label2.Name = "label2";
+<<<<<<< HEAD
+            this.label2.Size = new System.Drawing.Size(46, 20);
+=======
             this.label2.Size = new System.Drawing.Size(52, 20);
+>>>>>>> main
             this.label2.TabIndex = 1;
             this.label2.Text = "Email*";
             // 
@@ -67,7 +71,11 @@
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(95, 163);
             this.label3.Name = "label3";
+<<<<<<< HEAD
+            this.label3.Size = new System.Drawing.Size(70, 20);
+=======
             this.label3.Size = new System.Drawing.Size(76, 20);
+>>>>>>> main
             this.label3.TabIndex = 2;
             this.label3.Text = "Password*";
             // 
@@ -149,7 +157,11 @@
             // 
             // btnSave
             // 
+<<<<<<< HEAD
+            this.btnSave.Location = new System.Drawing.Point(231, 268);
+=======
             this.btnSave.Location = new System.Drawing.Point(242, 263);
+>>>>>>> main
             this.btnSave.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(86, 31);
@@ -160,7 +172,11 @@
             // 
             // btnClose
             // 
+<<<<<<< HEAD
+            this.btnClose.Location = new System.Drawing.Point(455, 268);
+=======
             this.btnClose.Location = new System.Drawing.Point(491, 268);
+>>>>>>> main
             this.btnClose.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(86, 31);
